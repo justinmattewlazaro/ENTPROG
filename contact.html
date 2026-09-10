@@ -4,9 +4,58 @@
   <meta charset="UTF-8">
   <title>Contact Me</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Extra styling for Contact page */
+    .contact {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .contact h2 {
+      color: #0d6efd;
+      margin-bottom: 10px;
+    }
+    .contact p {
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .contact-box {
+      background: #f8f9fa;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 30px;
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    .contact-box h3 {
+      color: #0d6efd;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .contact-box p {
+      margin: 10px 0;
+    }
+    .contact-box strong {
+      color: #333;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #0d6efd;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #084298;
+    }
+  </style>
 </head>
 <body>
 
+  <!-- Navigation -->
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
@@ -14,18 +63,24 @@
     <a href="contact.html">Contact</a>
   </nav>
 
-  <section>
+  <!-- Contact Section -->
+  <section class="contact">
     <h2>Contact Me</h2>
-    <p>Email: <strong>justinmattew.lazaro@gmail.com</strong></p>
-    <p>Phone: <strong>09123456789</strong></p>
-    <p>If you’d like to know more about my projects, feel free to reach out!</p>
-    <a href="mailto:justinmattew.lazaro@gmail.com" class="btn btn-primary">Send Me an Email</a>
+    <p>Feel free to get in touch with me.</p>
+
+    <div class="contact-box">
+      <h3>Get In Touch</h3>
+      <p><strong>Email:</strong> justin@example.com</p>
+      <p><strong>Phone:</strong> 09123456789</p>
+      <p><strong>Message:</strong> If you have any questions or would like to know more about my projects, feel free to contact me.</p>
+      <a href="mailto:justin@example.com" class="btn">Send Me an Email</a>
+    </div>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2026 Justin. All Rights Reserved.</p>
+    <p>© 2026 Justin Lazaro. All Rights Reserved.</p>
   </footer>
 
 </body>
 </html>
-
