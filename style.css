@@ -5,6 +5,7 @@ body {
   background: #f9f9f9;
 }
 
+/* Navigation */
 nav {
   background: #0d6efd;
   padding: 15px;
@@ -18,11 +19,22 @@ nav a {
   font-weight: bold;
 }
 
+/* Hero Section */
 .hero {
   background: linear-gradient(135deg, #0d6efd, #6610f2);
   color: white;
   text-align: center;
-  padding: 80px 20px;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 
 .hero .avatar {
@@ -47,6 +59,7 @@ nav a {
   background: #e9ecef;
 }
 
+/* Skills Grid */
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -67,6 +80,16 @@ nav a {
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
+.card h3 {
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.95rem;
+}
+
+/* Footer */
 footer {
   background: #0d6efd;
   color: white;
@@ -74,3 +97,4 @@ footer {
   padding: 20px;
   margin-top: 50px;
 }
+
